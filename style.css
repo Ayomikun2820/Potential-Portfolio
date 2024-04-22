@@ -1,9 +1,13 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body{
     background-color: black;
     color: white;
     font-family: 'poppins', sans-serif ;
-    /* margin: 0; */
 }
 
 a{
@@ -121,6 +125,11 @@ ul{
     font-weight: 400;
 }
 
+#for, #youShould{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 100;
+}
 
 .hireMeBtn{
     color: black;
@@ -134,8 +143,17 @@ ul{
     background: linear-gradient(90deg, #7A87FB 0%, #FFD49C 100%);
 }
 
+#mySkills a{
+    color: #7A87FB;
+    text-decoration: underline;
+}
+
 
 /* second section styles  */
+
+#section2{
+    margin-top: 68px;
+}
 
 .hero2{
     text-align: center;
@@ -149,7 +167,7 @@ ul{
 }
 
 .stacksHeader{
-    text-align: left;
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
