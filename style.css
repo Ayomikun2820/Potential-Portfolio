@@ -128,8 +128,34 @@ ul{
     background-clip: text;
 }
 
-.stacks{
+.stacksHeader{
     text-align: left;
     font-size: 18px;
     font-weight: 400;
+}
+
+.stacksImages {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.html, .css, .javascript, .git, .react, .firebase, 
+.framerMotion, .tailwind, .sass, .supabase {
+    font-size: 12px;
+    background-color: #7a87fb28;
+    width: 100px;
+    height: 120px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stacksImages img{
+    width: auto;
+    height: 80px;
+
 }
