@@ -152,7 +152,8 @@ ul{
 /* second section styles  */
 
 #section2{
-    margin-top: 68px;
+    margin-top: 30px;
+    scroll-margin-top: 68px;
 }
 
 .hero2{
@@ -195,5 +196,24 @@ ul{
 .stacksImages img{
     width: auto;
     height: 80px;
+}
 
+#curious{
+    color: #FFD49C;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+
+/* section 3  */
+
+
+#projects{
+    margin-top: 50px;
+    /* color: #7A87FB; */
+    font-family: 'poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
