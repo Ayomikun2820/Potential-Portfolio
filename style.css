@@ -57,10 +57,6 @@ ul{
 
 /* body styles  */
 
-.bodyContainer{
-    /* margin-top: 50px; */
-}
-
 .hero{
     height: 620px;
     display: flex;
@@ -95,7 +91,7 @@ ul{
     height: auto;
     text-align: center;
     font-family: 'poppins';
-    font-size: 13px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
 }
@@ -103,6 +99,7 @@ ul{
 
 .hireMeBtn{
     color: black;
+    font-size: 16px;
     display: flex;
     padding: 5.451px 15.264px;
     justify-content: center;
@@ -110,4 +107,24 @@ ul{
     border-radius: 30.299px;
     border: 0.818px transparent ;
     background: linear-gradient(90deg, #7A87FB 0%, #FFD49C 100%);
+}
+
+
+/* second section styles  */
+
+.hero2{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: transparent;
+    background-image: linear-gradient(to right, #7A87FB, #FFD49C);
+    background-clip: text;
+}
+
+.stacks{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
 }
