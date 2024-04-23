@@ -209,7 +209,7 @@ ul{
 /* section 3  */
 
 
-.projects{
+#projects{
     margin-top: 100px;
     scroll-margin-top: 68px;
     font-family: 'poppins';
@@ -268,4 +268,81 @@ ul{
 #projectInfo a{
     color: #FFD49C;
     text-decoration: underline;
+}
+
+
+/* section 3 styles  */
+
+#testimonialSection{
+    margin-top: 100px;
+    scroll-margin-top: 68px;
+}
+
+#testimonialHeader{
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+    color: transparent;
+    background-image: linear-gradient(to right, #7A87FB, #FFD49C);
+    background-clip: text;
+}
+
+.allTestimonials {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.testimonial{
+    display: flex;
+    padding: 26.507px 19.88px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8.283px;
+    
+    border: 1.2px solid transparent;
+    border-radius: 20px;
+    background: 
+      linear-gradient(to right, black, black), 
+      linear-gradient(to right, #7A87FB , #FFD49C); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+
+}
+
+.bioInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19.88px;
+}
+
+.bioInfo p{
+    margin: 0px;
+    color: #FFF;
+font-family: 'Poppins';
+font-size: 13.253px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.193px; /* 175% */
+}
+
+.bioHeader{
+    display: flex;
+    align-items: center;
+    gap: 115.138px;
+}
+
+.pp-Bio{
+    display: flex;
+    align-items: flex-start;
+    gap: 9.94px;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.313px;
 }
