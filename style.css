@@ -322,7 +322,7 @@ ul{
     margin: 0px;
     color: #FFF;
     font-family: 'Poppins';
-    font-size: 13.253px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 23.193px;
@@ -347,6 +347,16 @@ ul{
     gap: 3.313px;
 }
 
+.bio p {
+    font-size: 13px;
+    font-weight: 200;
+}
+
+#clientName {
+    font-weight: 400;
+    font-size: 16px;
+}
+
 /* contact me  */
 
 #contactSection {
@@ -361,9 +371,9 @@ ul{
 }
 
 .contactMe p {
-    color: var(--White, #FFF);
+    color: #FFD49C;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -386,8 +396,8 @@ ul{
     width: 321px;
 
     color: var(--White, #FFF);
-    font-family: Poppins;
-    font-size: 9px;
+    font-family: 'poppins';
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -395,8 +405,8 @@ ul{
 
 .contactBtn {
     display: flex;
-    width: 109px;
-    height: 23px;
+    width: 115px;
+    height: 30px;
     padding: 5.451px 15.264px;
     justify-content: center;
     align-items: center;
@@ -409,8 +419,8 @@ ul{
 .contactBtn p {
     color: var(--Background, #101111);
     text-align: center;
-    font-family: Poppins;
-    font-size: 9px;
+    font-family: 'Poppins';
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 12.183px; 
@@ -431,7 +441,7 @@ ul{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 15px;
 }
 
 .icons {
@@ -447,8 +457,8 @@ ul{
 }
 
 .icons img {
-    width: 15.214px;
-    height: 15.214px;
+    /* width: 15.214px; */
+    height: 20px;
 }
 
 
@@ -469,7 +479,7 @@ ul{
     margin: 0px;
     color: #FFF;
     font-family: 'poppins';
-    font-size: 18.122px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
