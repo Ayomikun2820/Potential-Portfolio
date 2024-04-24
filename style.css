@@ -321,11 +321,11 @@ ul{
 .bioInfo p{
     margin: 0px;
     color: #FFF;
-font-family: 'Poppins';
-font-size: 13.253px;
-font-style: normal;
-font-weight: 400;
-line-height: 23.193px; /* 175% */
+    font-family: 'Poppins';
+    font-size: 13.253px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.193px;
 }
 
 .bioHeader{
@@ -345,4 +345,132 @@ line-height: 23.193px; /* 175% */
     flex-direction: column;
     align-items: flex-start;
     gap: 3.313px;
+}
+
+/* contact me  */
+
+#contactSection {
+    margin: 50px 0px;
+}
+
+.contactMe {
+    margin: 0px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contactMe p {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.831px;   
+}
+
+.contactMe img {
+    width: 22.3px;
+    height: 22.3px;
+}
+
+.contactInfo {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.contactInfo p {
+    width: 321px;
+
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contactBtn {
+    display: flex;
+    width: 109px;
+    height: 23px;
+    padding: 5.451px 15.264px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 39.299px;
+    border: 0.818px solid var(--st-lin, #7A87FB);
+    background: var(--linear, linear-gradient(90deg, #7A87FB 0%, #FFD49C 100%));
+}
+
+.contactBtn p {
+    color: var(--Background, #101111);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12.183px; 
+}
+
+/* footer  */
+
+.footer {
+    width: 100%;
+    height: 153px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBar {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.icons {
+    display: flex;
+    padding: 4.564px 24.342px 4.564px 4.564px;
+    justify-content: center;
+    align-items: center;
+    gap: 30.427px;
+
+    border-radius: 220.598px;
+    border: 1.141px solid var(--st-lin, #7A87FB);
+    background: #1C1C1C;
+}
+
+.icons img {
+    width: 15.214px;
+    height: 15.214px;
+}
+
+
+
+.footerLogo {
+    display: flex;
+    padding: 0px 5px;
+    align-items: center;
+    gap: 9.061px;
+}
+
+.footerLogo img {
+    width: auto;
+    height: 22.653px;
+}
+
+.footerLogo p {
+    margin: 0px;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 18.122px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
