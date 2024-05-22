@@ -185,6 +185,7 @@ ul{
 .framerMotion, .tailwind, .sass, .supabase {
     font-size: 12px;
     background-color: #7a87fb28;
+    border-radius: 5px;
     width: 100px;
     height: 120px ;
     display: flex;
@@ -457,7 +458,7 @@ ul{
 }
 
 .icons img {
-    /* width: 15.214px; */
+    width: 20.214px;
     height: 20px;
 }
 
